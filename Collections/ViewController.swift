@@ -54,6 +54,10 @@ class ViewController: UIViewController , UICollectionViewDataSource, UICollectio
         // Use the outlet in our custom class to get a reference to the UILabel in the cell
         //     cell.assetLabel.text = self.items[indexPath.item]
         cell.backgroundColor = UIColor.yellowColor() // make cell more visible in our example project
+      
+        cell.assetImage.image = UIImage(named:"sample.png")
+        
+        
         
         return cell
     }
